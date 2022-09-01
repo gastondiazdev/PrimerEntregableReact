@@ -6,10 +6,6 @@ import './index.css';
 function App() {
   const [cantidadGlobal, setCount] = useState(0);
 
-  /*function sumaStockGlobal() {
-    cantidadGlobal = setCount(cantidadGlobal+1);
-  }*/
-
   const sumaStockGlobal = () => {
     setCount(cantidadGlobal+1);
   }
